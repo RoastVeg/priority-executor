@@ -1,0 +1,11 @@
+[package]
+name = "priority-executor"
+version = "0.1.0"
+edition = "2021"
+authors = ["roastveg <louis@hamptonsoftworks.com>"]
+
+[dependencies]
+thread-priority = "0.16"
+futures-lite = "2.3"
+async-task = "4.7"
+flume = "0.11"
